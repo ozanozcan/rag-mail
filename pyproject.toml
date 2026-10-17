@@ -1,0 +1,10 @@
+[project]
+name = "rag-mail"
+version = "0.0.1"
+description = "Harvest newsletters from Gmail into a clean, tagged corpus for retrieval"
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

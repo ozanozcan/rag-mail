@@ -1,0 +1,15 @@
+# Real mail, corpus and tokens live in ~/.rag-mail/ — these catch strays.
+*.eml
+*.mbox
+*.jsonl
+*.msg
+token*.json
+credentials*.json
+client_secret*.json
+data/
+corpus/
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
